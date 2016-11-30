@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3455CA9C1DEEB99800D77786 /* NSDictionary+NullExamine.m in Sources */ = {isa = PBXBuildFile; fileRef = 3455CA9B1DEEB99800D77786 /* NSDictionary+NullExamine.m */; };
 		349B6F791DDD7FDD004B1475 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 349B6F781DDD7FDD004B1475 /* main.m */; };
 		349B6F7C1DDD7FDD004B1475 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 349B6F7B1DDD7FDD004B1475 /* AppDelegate.m */; };
 		349B6F7F1DDD7FDD004B1475 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 349B6F7E1DDD7FDD004B1475 /* ViewController.m */; };
@@ -17,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3455CA9A1DEEB99800D77786 /* NSDictionary+NullExamine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+NullExamine.h"; sourceTree = "<group>"; };
+		3455CA9B1DEEB99800D77786 /* NSDictionary+NullExamine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+NullExamine.m"; sourceTree = "<group>"; };
 		349B6F741DDD7FDC004B1475 /* AYYUtils.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AYYUtils.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		349B6F781DDD7FDD004B1475 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		349B6F7A1DDD7FDD004B1475 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -88,6 +91,8 @@
 			children = (
 				349B6F8F1DDD808F004B1475 /* AYYAppRate.h */,
 				349B6F901DDD808F004B1475 /* AYYAppRate.m */,
+				3455CA9A1DEEB99800D77786 /* NSDictionary+NullExamine.h */,
+				3455CA9B1DEEB99800D77786 /* NSDictionary+NullExamine.m */,
 			);
 			path = AYYUtils;
 			sourceTree = "<group>";
@@ -123,6 +128,7 @@
 				TargetAttributes = {
 					349B6F731DDD7FDC004B1475 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = H2UH5R8RF3;
 					};
 				};
 			};
@@ -164,6 +170,7 @@
 			files = (
 				349B6F7F1DDD7FDD004B1475 /* ViewController.m in Sources */,
 				349B6F7C1DDD7FDD004B1475 /* AppDelegate.m in Sources */,
+				3455CA9C1DEEB99800D77786 /* NSDictionary+NullExamine.m in Sources */,
 				349B6F791DDD7FDD004B1475 /* main.m in Sources */,
 				349B6F911DDD808F004B1475 /* AYYAppRate.m in Sources */,
 			);
@@ -279,7 +286,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = H2UH5R8RF3;
 				INFOPLIST_FILE = AYYUtils/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ayy.utils.AYYUtils;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -290,7 +299,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = H2UH5R8RF3;
 				INFOPLIST_FILE = AYYUtils/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ayy.utils.AYYUtils;
 				PRODUCT_NAME = "$(TARGET_NAME)";
