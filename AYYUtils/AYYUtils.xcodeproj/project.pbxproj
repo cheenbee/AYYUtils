@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		342091F21DF80C65001AA421 /* UIView+ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 342091F11DF80C65001AA421 /* UIView+ViewController.m */; };
+		342C50FB1E03998100DD5E05 /* NSString+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = 342C50FA1E03998100DD5E05 /* NSString+Size.m */; };
 		3455CA9C1DEEB99800D77786 /* NSDictionary+NullExamine.m in Sources */ = {isa = PBXBuildFile; fileRef = 3455CA9B1DEEB99800D77786 /* NSDictionary+NullExamine.m */; };
 		349B6F791DDD7FDD004B1475 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 349B6F781DDD7FDD004B1475 /* main.m */; };
 		349B6F7C1DDD7FDD004B1475 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 349B6F7B1DDD7FDD004B1475 /* AppDelegate.m */; };
@@ -21,6 +22,8 @@
 /* Begin PBXFileReference section */
 		342091F01DF80C65001AA421 /* UIView+ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ViewController.h"; sourceTree = "<group>"; };
 		342091F11DF80C65001AA421 /* UIView+ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ViewController.m"; sourceTree = "<group>"; };
+		342C50F91E03998100DD5E05 /* NSString+Size.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Size.h"; sourceTree = "<group>"; };
+		342C50FA1E03998100DD5E05 /* NSString+Size.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Size.m"; sourceTree = "<group>"; };
 		3455CA9A1DEEB99800D77786 /* NSDictionary+NullExamine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+NullExamine.h"; sourceTree = "<group>"; };
 		3455CA9B1DEEB99800D77786 /* NSDictionary+NullExamine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+NullExamine.m"; sourceTree = "<group>"; };
 		349B6F741DDD7FDC004B1475 /* AYYUtils.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AYYUtils.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -92,6 +95,8 @@
 		349B6F8E1DDD8066004B1475 /* AYYUtils */ = {
 			isa = PBXGroup;
 			children = (
+				342C50F91E03998100DD5E05 /* NSString+Size.h */,
+				342C50FA1E03998100DD5E05 /* NSString+Size.m */,
 				349B6F8F1DDD808F004B1475 /* AYYAppRate.h */,
 				349B6F901DDD808F004B1475 /* AYYAppRate.m */,
 				3455CA9A1DEEB99800D77786 /* NSDictionary+NullExamine.h */,
@@ -177,6 +182,7 @@
 				349B6F7C1DDD7FDD004B1475 /* AppDelegate.m in Sources */,
 				3455CA9C1DEEB99800D77786 /* NSDictionary+NullExamine.m in Sources */,
 				342091F21DF80C65001AA421 /* UIView+ViewController.m in Sources */,
+				342C50FB1E03998100DD5E05 /* NSString+Size.m in Sources */,
 				349B6F791DDD7FDD004B1475 /* main.m in Sources */,
 				349B6F911DDD808F004B1475 /* AYYAppRate.m in Sources */,
 			);
