@@ -26,6 +26,7 @@
 		342C50FA1E03998100DD5E05 /* NSString+Size.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Size.m"; sourceTree = "<group>"; };
 		3455CA9A1DEEB99800D77786 /* NSDictionary+NullExamine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+NullExamine.h"; sourceTree = "<group>"; };
 		3455CA9B1DEEB99800D77786 /* NSDictionary+NullExamine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+NullExamine.m"; sourceTree = "<group>"; };
+		3481269C1E0D3444002AD2D7 /* CrossDevicesLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrossDevicesLayout.h; sourceTree = "<group>"; };
 		349B6F741DDD7FDC004B1475 /* AYYUtils.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AYYUtils.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		349B6F781DDD7FDD004B1475 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		349B6F7A1DDD7FDD004B1475 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -95,6 +96,7 @@
 		349B6F8E1DDD8066004B1475 /* AYYUtils */ = {
 			isa = PBXGroup;
 			children = (
+				3481269C1E0D3444002AD2D7 /* CrossDevicesLayout.h */,
 				342C50F91E03998100DD5E05 /* NSString+Size.h */,
 				342C50FA1E03998100DD5E05 /* NSString+Size.m */,
 				349B6F8F1DDD808F004B1475 /* AYYAppRate.h */,

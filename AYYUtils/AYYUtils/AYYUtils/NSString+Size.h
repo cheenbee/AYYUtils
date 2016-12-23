@@ -1,12 +1,13 @@
 //
 //  NSString+Size.h
-//  GW
+//  AYYUtils
 //
 //  Created by 艾呦呦 on 16/9/26.
 //  Copyright © 2016年 apple. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 @interface NSString (Size)
 
