@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3414EF831E1653CE008BC725 /* AYYFPSIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 3414EF821E1653CE008BC725 /* AYYFPSIndicator.m */; };
 		342091F21DF80C65001AA421 /* UIView+ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 342091F11DF80C65001AA421 /* UIView+ViewController.m */; };
 		342C50FB1E03998100DD5E05 /* NSString+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = 342C50FA1E03998100DD5E05 /* NSString+Size.m */; };
 		3455CA9C1DEEB99800D77786 /* NSDictionary+NullExamine.m in Sources */ = {isa = PBXBuildFile; fileRef = 3455CA9B1DEEB99800D77786 /* NSDictionary+NullExamine.m */; };
@@ -20,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3414EF811E1653CE008BC725 /* AYYFPSIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AYYFPSIndicator.h; sourceTree = "<group>"; };
+		3414EF821E1653CE008BC725 /* AYYFPSIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AYYFPSIndicator.m; sourceTree = "<group>"; };
 		342091F01DF80C65001AA421 /* UIView+ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ViewController.h"; sourceTree = "<group>"; };
 		342091F11DF80C65001AA421 /* UIView+ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ViewController.m"; sourceTree = "<group>"; };
 		342C50F91E03998100DD5E05 /* NSString+Size.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Size.h"; sourceTree = "<group>"; };
@@ -105,6 +108,8 @@
 				3455CA9B1DEEB99800D77786 /* NSDictionary+NullExamine.m */,
 				342091F01DF80C65001AA421 /* UIView+ViewController.h */,
 				342091F11DF80C65001AA421 /* UIView+ViewController.m */,
+				3414EF811E1653CE008BC725 /* AYYFPSIndicator.h */,
+				3414EF821E1653CE008BC725 /* AYYFPSIndicator.m */,
 			);
 			path = AYYUtils;
 			sourceTree = "<group>";
@@ -185,6 +190,7 @@
 				3455CA9C1DEEB99800D77786 /* NSDictionary+NullExamine.m in Sources */,
 				342091F21DF80C65001AA421 /* UIView+ViewController.m in Sources */,
 				342C50FB1E03998100DD5E05 /* NSString+Size.m in Sources */,
+				3414EF831E1653CE008BC725 /* AYYFPSIndicator.m in Sources */,
 				349B6F791DDD7FDD004B1475 /* main.m in Sources */,
 				349B6F911DDD808F004B1475 /* AYYAppRate.m in Sources */,
 			);
